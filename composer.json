@@ -1,0 +1,26 @@
+{
+  "name": "cyberclick/crm-client",
+  "type": "library",
+  "description": "Cyberclick Crm Client",
+  "license": "Private",
+  "authors": [
+    {
+      "name": "Hector Borras",
+      "email": "hborras@cyberclick.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "CyberclickCrm\\": "src/CyberclickCrm/"
+    }
+  }
+}
