@@ -2,7 +2,7 @@
   "name": "cyberclick/crm-client",
   "type": "library",
   "description": "Cyberclick Crm Client",
-  "license": "Private",
+  "license": "MIT License",
   "authors": [
     {
       "name": "Hector Borras",
