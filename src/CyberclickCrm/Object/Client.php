@@ -12,14 +12,14 @@ use CyberclickCrm\TypeChecker;
 
 class Client extends AbstractObject
 {
-    /** @var integer */
-    private $id;
+    /** @var string */
+    private $publicKey;
 
-    public function __construct($id = '', Api $api = null)
+    public function __construct($publicKey = '', Api $api = null)
     {
         parent::__construct($api);
 
-        $this->id = $id;
+        $this->publicKey = $publicKey;
     }
 
     public static function getFieldsEnum()
@@ -29,7 +29,7 @@ class Client extends AbstractObject
 
     public function getStats($params)
     {
-        $params['client'] = $this->id;
+        $params['client'] = $this->publicKey;
 
         $paramTypes = [
         ];
