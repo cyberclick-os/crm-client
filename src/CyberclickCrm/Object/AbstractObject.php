@@ -62,4 +62,11 @@ class AbstractObject
     {
 
     }
+
+    /**
+     * @return array
+     */
+    public function data() {
+        return $this->data;
+    }
 }
