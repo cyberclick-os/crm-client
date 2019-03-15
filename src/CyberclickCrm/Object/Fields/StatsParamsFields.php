@@ -7,6 +7,7 @@ use CyberclickCrm\Enum\AbstractEnum;
 class StatsParamsFields extends AbstractEnum
 {
     const START_DATE        = 'startDate';
+    const END_DATE          = 'endDate';
     const GROUP_ROW         = 'groupRow';
     const GROUP_COLUMN      = 'groupColumn';
     const CAMPAIGN          = 'campaign';
