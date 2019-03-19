@@ -5,6 +5,6 @@ namespace CyberclickCrm;
 class ApiConfig
 {
     const APIVersion               = '0.1';
-    const SDKVersion               = '0.0.5';
+    const SDKVersion               = '0.0.6';
     const TYPE_CHECKER_STRICT_MODE = false;
 }
