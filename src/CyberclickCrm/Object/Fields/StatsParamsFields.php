@@ -16,6 +16,7 @@ class StatsParamsFields extends AbstractEnum
     const RESULT_STATUS     = 'result_status';
     const RECORD_STATUS     = 'record_status';
     const VALIDATION_STATUS = 'validation_status';
+    const REPORT_TYPE       = 'reportType';
 
     public function getFieldTypes()
     {
@@ -29,6 +30,7 @@ class StatsParamsFields extends AbstractEnum
             'result_status' => 'string',
             'record_status' => 'string',
             'validation_status' => 'string',
+            'reportType' => 'string',
         ];
     }
 }
