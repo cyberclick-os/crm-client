@@ -8,6 +8,6 @@ use CyberclickCrm\Enum\AbstractEnum;
 
 class ReportTypeValues extends AbstractEnum
 {
-    const DATA          = 'data';
-    const TOTALS        = 'totals';
+    const DATA   = 'data';
+    const TOTALS = 'totals';
 }

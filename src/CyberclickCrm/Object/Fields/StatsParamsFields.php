@@ -6,17 +6,19 @@ use CyberclickCrm\Enum\AbstractEnum;
 
 class StatsParamsFields extends AbstractEnum
 {
-    const START_DATE        = 'startDate';
-    const END_DATE          = 'endDate';
-    const GROUP_ROW         = 'groupRow';
-    const GROUP_COLUMN      = 'groupColumn';
-    const CAMPAIGN          = 'campaign';
-    const CREATIVITY        = 'creativity';
-    const FILTERS           = 'filters';
-    const RESULT_STATUS     = 'result_status';
-    const RECORD_STATUS     = 'record_status';
-    const VALIDATION_STATUS = 'validation_status';
-    const REPORT_TYPE       = 'reportType';
+    const START_DATE            = 'startDate';
+    const END_DATE              = 'endDate';
+    const GROUP_ROW             = 'groupRow';
+    const GROUP_COLUMN          = 'groupColumn';
+    const CAMPAIGN              = 'campaign';
+    const CREATIVITY            = 'creativity';
+    const FILTERS               = 'filters';
+    const RESULT_STATUS         = 'result_status';
+    const RECORD_STATUS         = 'record_status';
+    const VALIDATION_STATUS     = 'validation_status';
+    const REPORT_TYPE           = 'reportType';
+    const DOWNLOAD_COLUMN_NAMES = 'downloadColumnNames';
+    const DOWNLOAD_FORMAT       = 'downloadFormat';
 
     public function getFieldTypes()
     {
@@ -31,6 +33,8 @@ class StatsParamsFields extends AbstractEnum
             'record_status' => 'string',
             'validation_status' => 'string',
             'reportType' => 'string',
+            'downloadColumnNames' => 'string',
+            'downloadFormat' => 'string',
         ];
     }
 }
