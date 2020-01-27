@@ -10,6 +10,10 @@ use CyberclickCrm\Logger\NullLogger;
 
 class Api
 {
+    /**
+     * @var string
+     */
+    const API_KEY = 'API_KEY';
 
     /**
      * @var string
