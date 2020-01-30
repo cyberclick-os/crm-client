@@ -13,6 +13,7 @@ class StatsParamsFields extends AbstractEnum
     const CAMPAIGN              = 'campaign';
     const CREATIVITY            = 'creativity';
     const FILTERS               = 'filters';
+    const FILE_TYPE             = 'fileType';
     const RESULT_STATUS         = 'result_status';
     const RECORD_STATUS         = 'record_status';
     const VALIDATION_STATUS     = 'validation_status';
@@ -35,6 +36,7 @@ class StatsParamsFields extends AbstractEnum
             'reportType' => 'string',
             'downloadColumnNames' => 'string',
             'downloadFormat' => 'string',
+            'fileType' => 'string'
         ];
     }
 }
