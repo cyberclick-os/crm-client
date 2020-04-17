@@ -47,7 +47,7 @@ class CurlAdapter extends AbstractAdapter {
     if ($this->opts === null) {
       $this->opts = new \ArrayObject(array(
         CURLOPT_CONNECTTIMEOUT => 10,
-        CURLOPT_TIMEOUT => 60,
+        CURLOPT_TIMEOUT => 180,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_HEADER => true,
       ));
